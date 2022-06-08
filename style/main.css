@@ -126,7 +126,9 @@ h1 span {
 }
 .footer {
     background: #1E2F40;
-    color:#ffffff
+    color:#ffffff;
+    padding-top: 117px;
+    padding-bottom: 106px;
 
 }
 .logo {
@@ -144,9 +146,29 @@ h1 span {
 }
 .item li {
     margin-bottom: 9px; /*растояние между элементами списка*/
-
+    font-family: 'Lato', sans-serif; /*шрифт*/
+    font-size: 15px;
+    color:#FAF9F9 ;
+    font-weight: 700;
+    line-height: 24px;/*межстрочный интервал*/
 }
 .item a {
     color: #DEDEDE; /*цвет ссылок в списке */
     text-decoration: none;/*убрать подчеркивание у ссылок*/
+    font-weight: 400;
+
+}
+.item span {
+    color: #DEDEDE; /*цвет ссылок в списке */
+    display: block; /*чтобы не слипались время и адресс*/
+    font-weight: 400;
+    margin-bottom: 2px;
+
+}
+.tel ul {
+    font-size: 20px;
+    color: #FBB731;
+}
+.tel li {
+    margin-bottom: 12px;
 }
