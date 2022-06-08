@@ -133,8 +133,20 @@ h1 span {
     width:63px;
     height: 56px;
 }
-.item h2{
+.item h2 {
     font-size: 20px;
+    font-weight: 800;/*жирность шрифта nanito*/
+    text-transform:uppercase; /*буквы заглавные*/
 }
+.item ul,
+.tel ul {
+    list-style-type: none; /*убрали точки слева у списка*/
+}
+.item li {
+    margin-bottom: 9px; /*растояние между элементами списка*/
 
-
+}
+.item a {
+    color: #DEDEDE; /*цвет ссылок в списке */
+    text-decoration: none;/*убрать подчеркивание у ссылок*/
+}
