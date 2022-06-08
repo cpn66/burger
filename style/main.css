@@ -41,7 +41,8 @@ h1 span {
     line-height: 1.4;
     margin-bottom: 42px;
 }
-.main a {
+.main a,
+.promo a {
     color: #1E2F40;
     background-color: #FBB731;
     border-radius: 5px;
@@ -125,6 +126,7 @@ h1 span {
 }
 .footer {
     background: #1E2F40;
+    color:#ffffff
 
 }
 .logo {
