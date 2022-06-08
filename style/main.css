@@ -35,7 +35,7 @@ h1 span {
     display: block;
     margin-bottom: 10px;
 }
-p {
+.text p {
     font-family: 'Lato', sans-serif;
     font-size: 19px;
     line-height: 1.4;
@@ -77,6 +77,9 @@ img {
     flex: 0 0 49%;
     color:#ffffff;
     box-sizing: border-box;/*без нее после padding наезд одной картинки на другую*/
+    background-repeat: no-repeat; /*повторения нет*/
+    background-size: cover; /*картика растягивалась*/
+    background-position: center;
 }
 .promo-left {
   background-image: url(../image/promo-left.png);
@@ -87,3 +90,39 @@ img {
     padding: 102px 50px;
    
 }
+.sale {
+    font-size: 14px;
+    font-weight: 900;
+    background: #F37335;
+    padding: 5px 19px;
+    border-radius: 14px;/*закругление*/
+    display: inline-block;/* чтобы кнопка не растягивалась*/
+    text-transform: uppercase ;/*текст большими буквами*/
+}
+.cost {
+    font-size: 60px;
+    font-weight: 900;
+}
+.description {
+    font-family: 'Lato', sans-serif;
+    color: #FAF9F9;
+    font-size: 15px;
+    line-height: 24px;
+}
+.promo-left .description {
+    max-width: 392px;
+}
+.promo-right .description {
+    max-width: 300px;
+    margin-bottom: 20px;
+  
+}
+.free {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 10px;
+     
+}
+
+
+
